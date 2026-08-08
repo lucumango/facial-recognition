@@ -1,0 +1,23 @@
+# Datos biometricos: NUNCA versionar
+sesion/
+sesion_backup*/
+plantillas/
+plantillas_grupo2/
+figuras/
+*.jpg
+*.jpeg
+*.png
+
+# Resultados con codigo de alumno (usar los agregados de resultados/)
+resultados.json
+resultados_pad.json
+
+# Modelos y entorno
+venv/
+modelos/
+pad/
+*.onnx
+*.pth
+*.zip
+__pycache__/
+*.pyc
