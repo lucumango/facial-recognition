@@ -5,9 +5,9 @@ No corre reconocimiento: solo graba frames crudos y metadatos.
 El scoring (APCER/BPCER/genuinos/latencia) se hace despues, offline.
 
 Uso:
-    ./venv/bin/python capturar.py --code 202216148 --species bonafide
-    ./venv/bin/python capturar.py --code 202216148 --species print
-    ./venv/bin/python capturar.py --code 202216148 --species mask
+    ./venv/bin/python capturar.py --code 202299999 --species bonafide
+    ./venv/bin/python capturar.py --code 202299999 --species print
+    ./venv/bin/python capturar.py --code 202299999 --species mask
 
 Teclas:
     ESPACIO  graba una presentacion (rafaga de ~2 s)
@@ -50,7 +50,7 @@ def next_presentation(base):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--code", required=True, help="codigo del alumno objetivo (u ej. 202216148)")
+    ap.add_argument("--code", required=True, help="codigo del alumno objetivo (u ej. 202299999)")
     ap.add_argument("--species", required=True, choices=SPECIES)
     ap.add_argument("--cam", type=int, default=0)
     ap.add_argument("--out", default="sesion")

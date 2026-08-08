@@ -6,7 +6,7 @@ Detecta los dos errores tipicos de la sesion:
   - artefacto de otra persona (foto o tablet equivocada)
 
 Uso:
-    ./venv/bin/python verificar.py 202111369
+    ./venv/bin/python verificar.py 202299998
     ./venv/bin/python verificar.py            # todos los codigos
 """
 import glob
