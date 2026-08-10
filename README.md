@@ -17,6 +17,7 @@ distributions needed to reproduce the calibration analysis.
 ```
 scripts/     capture and analysis pipeline
 resultados/  aggregate statistics (no student codes, no per-subject records)
+NOTES.md     session parameters, operating points, known gaps
 ```
 
 ## Scripts
@@ -25,12 +26,13 @@ resultados/  aggregate statistics (no student codes, no per-subject records)
 |---|---|
 | `camaras.py` | Enumerate cameras visible to OpenCV |
 | `capturar.py` | Record presentations (ISO/IEC 30107-3), one burst per presentation |
-| `revisar.py` | Per-presentation quality check: face width in px, sharpness, framing |
+|  `revisar.py` | Per-presentation quality check: face width in px, sharpness, framing |
 | `verificar.py` | Confirm each presentation shows the labelled identity |
 | `puntuar.py` | Matcher scoring: genuine comparisons and IAPMR per PAI species |
 | `pad_score.py` | PAD evaluation with MiniFASNet: APCER, BPCER, ACER |
 | `latencia.py` | Per-stage latency on deployment hardware |
 | `foto.py` | Self-timer capture for setup documentation |
+| `figuras.py` | Regenerate the paper figures and the HMAC timing |
 
 ## Aggregate results
 
