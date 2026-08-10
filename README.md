@@ -1,4 +1,4 @@
-# Securing Campus Access — code and aggregate results
+# Securing Campus Access: code and aggregate results
 
 Code and aggregate statistics accompanying the SIMBig 2026 submission
 *Securing Campus Access with Biometric Authentication, Liveness Detection, and
@@ -56,9 +56,9 @@ python3 -m venv venv
 
 Models are not vendored. Download separately:
 
-- YuNet `face_detection_yunet_2023mar.onnx` — [opencv_zoo](https://github.com/opencv/opencv_zoo)
-- ArcFace `buffalo_l` (`w600k_r50.onnx`) — [insightface](https://github.com/deepinsight/insightface) releases
-- MiniFASNet — [Silent-Face-Anti-Spoofing](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing)
+- YuNet `face_detection_yunet_2023mar.onnx`, from [opencv_zoo](https://github.com/opencv/opencv_zoo)
+- ArcFace `buffalo_l` (`w600k_r50.onnx`), from [insightface](https://github.com/deepinsight/insightface) releases
+- MiniFASNet, from [Silent-Face-Anti-Spoofing](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing)
 
 Expected layout: `modelos/yunet.onnx`, `modelos/buffalo_l/w600k_r50.onnx`,
 `pad/` (the cloned anti-spoofing repository).
@@ -73,7 +73,7 @@ explicitly rather than claiming broader authorisation. Under Peruvian Ley
 N.º 29733, biometric data is sensitive personal data.
 
 The nine session participants gave written informed consent covering capture,
-research use, retention and — separately and optionally — publication of their
+research use, retention and, separately and optionally, publication of their
 image. All nine granted the publication authorisation. Consent to appear in a
 figure is not consent to release a biometric dataset, and is not treated as
 such. Session captures are deleted on 31 October 2026.

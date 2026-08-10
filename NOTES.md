@@ -20,7 +20,7 @@ code and would otherwise be lost.
 
 Continuity Camera must have automatic reframing, portrait blur and studio
 lighting **disabled**. Automatic reframing in particular changes the framing
-between presentations and silently destroys the fixed geometry — the capture
+between presentations and silently destroys the fixed geometry: the capture
 still succeeds and the defect is only visible at analysis time.
 
 Camera indices shift: with the iPhone connected it takes index 0 and the
@@ -63,9 +63,9 @@ score clears by only 0.031, and one presentation falls below.
 ## Decision policy
 
 A presentation is scored by the **maximum** over its frames, for both the
-matcher and the PAD module. This is the realistic gate policy — the system
+matcher and the PAD module. This is the realistic gate policy, since the system
 keeps reading as the subject approaches and opens on the first frame that
-passes — and it is the conservative choice against an attack.
+passes, and it is the conservative choice against an attack.
 
 ## Data
 
@@ -75,8 +75,8 @@ repository and never will be. They are scheduled for deletion on
 
 Two folders are needed to re-run the analysis and are not vendored:
 
-- `plantillas/` — one archive photograph per student code, named `<code>.jpg`
-- `sesion/<code>/<species>/p<NN>/f<NNN>.jpg` — the captures
+- `plantillas/`: one archive photograph per student code, named `<code>.jpg`
+- `sesion/<code>/<species>/p<NN>/f<NNN>.jpg`: the captures
 
 ## Known gaps
 
