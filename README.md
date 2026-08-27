@@ -1,7 +1,6 @@
 # Securing Campus Access: code and aggregate results
 
-Code and aggregate statistics accompanying the SIMBig 2026 submission
-*Securing Campus Access with Biometric Authentication, Liveness Detection, and
+Code and aggregate statistics accompanying the submission *Securing Campus Access with Biometric Authentication, Liveness Detection, and
 Secure QR Codes: Calibration and Evaluation on 105,796 Real Student
 Photographs*.
 
@@ -67,12 +66,7 @@ Expected layout: `modelos/yunet.onnx`, `modelos/buffalo_l/w600k_r50.onnx`,
 
 The institutional corpus was made available for coursework at the institution
 and the analysis grew out of that coursework under the supervision of the course
-instructor. That is academic supervision, not a determination by the
-institution's data-protection function; the paper states this limitation
-explicitly rather than claiming broader authorisation. Under Peruvian Ley
-N.º 29733, biometric data is sensitive personal data.
-
-The nine session participants gave written informed consent covering capture,
+instructor.  The nine session participants gave written informed consent covering capture,
 research use, retention and, separately and optionally, publication of their
 image. All nine granted the publication authorisation. Consent to appear in a
 figure is not consent to release a biometric dataset, and is not treated as
